@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+    shairport-sync-docker-pi:
+        restart: always
+        container_name: shairport
+        devices:
+            - /dev/snd
+        image: shairport-sync-docker-pi
