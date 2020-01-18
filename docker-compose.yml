@@ -5,4 +5,4 @@ services:
         container_name: shairport
         devices:
             - /dev/snd
-        image: shairport-sync-docker-pi
+        image: evansalter/shairport-sync-docker-pi
